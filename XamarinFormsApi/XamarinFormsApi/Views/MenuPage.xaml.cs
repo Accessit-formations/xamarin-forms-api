@@ -24,7 +24,7 @@ namespace XamarinFormsApi.Views
             BindingContext = new BaseViewModel
             {
                 Title = "Xamarin Forms Api",
-                Icon = "slideout.png"
+                //Icon = "slideout.png"
             };
 
             ListViewMenu.ItemsSource = menuItems = new List<HomeMenuItem>
